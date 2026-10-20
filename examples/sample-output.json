@@ -1,0 +1,38 @@
+{
+  "host": "example.com",
+  "port": 22,
+  "username": "myuser",
+  "method": "local-rsync-over-ssh",
+  "directory_count": 2,
+  "success_count": 2,
+  "failure_count": 0,
+  "total_file_size_bytes": 314572800,
+  "total_file_size_human": "300.00 MiB",
+  "total_number_of_files": 176546,
+  "total_number_of_dirs": 31879,
+  "elapsed_seconds": 4.322,
+  "directories": [
+    {
+      "directory": "/var/www/site1",
+      "success": true,
+      "total_file_size_bytes": 209715200,
+      "total_file_size_human": "200.00 MiB",
+      "number_of_files": 120000,
+      "number_of_dirs": 20000,
+      "elapsed_seconds": 2.118,
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "directory": "/var/www/site2",
+      "success": true,
+      "total_file_size_bytes": 104857600,
+      "total_file_size_human": "100.00 MiB",
+      "number_of_files": 56546,
+      "number_of_dirs": 11879,
+      "elapsed_seconds": 2.204,
+      "exit_code": 0,
+      "error": null
+    }
+  ]
+}
